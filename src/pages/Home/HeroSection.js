@@ -11,12 +11,12 @@ const HeroSection = () => {
         className="page-hero d-flex align-items-center tringle-bg"
         id="page-hero"
       >
-        {/* <div
+        <div
           className="overlay-photo-image-bg"
           data-bg-img="assets/images/sections-bg-images/pattern-bg-1.jpg"
           data-bg-opacity=".2"
-        ></div> */}
-        {/* <div className="particles-js dots" id="particles-js"></div> */}
+        ></div>
+        <div className="particles-js dots" id="particles-js"></div>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-12 col-lg-6">

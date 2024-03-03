@@ -2730,7 +2730,7 @@ body.rounded-btns .read-more {
   max-width: 200px;
   width: 200px;
   height: 70px;
-  /* background-image: url("../images/about/signature-dark.png"); */
+  background-image: url("../Image/about/signature-dark.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -5100,9 +5100,9 @@ body.dark-theme .custom-form-area.input-under-lined textarea {
 body.dark-theme .team-member .profile {
   background-color: var(--clr-semi-dark-blue);
 }
-/* body.dark-theme .about .cta-area .signature .signature-img {
-  background-image: url(".../images/about/signature-light.png");
-} */
+body.dark-theme .about .cta-area .signature .signature-img {
+  background-image: url("../Image/about/signature-light.png");
+}
 body.dark-theme .about .stats-counter.stats-cards .stat-box {
   background: var(--clr-semi-dark-blue);
 }

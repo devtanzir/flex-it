@@ -1,13 +1,23 @@
 import React from "react";
-import DefaultHeading from "../../components/DefaultHeadding";
+import DefaultHeading from "../../components/DefaultHeading";
 import ServiceBox from "../../components/ServiceBox";
+
+import DefaultHeadingBtn from "../../components/DefaultHeadingBtn";
 
 const ServiceSection = () => {
   return (
     <>
       <section className="services services-boxed mega-section" id="services">
         <div className="container">
-          <DefaultHeading title="services" />
+          <DefaultHeading
+            title="services"
+            heading1="services"
+            heading2="we offer"
+            para1="Lorem ipsum dolor sit amet consectetur adipisicing elit Omnis"
+            para2="id atque dignissimos repellat quae ullam."
+          >
+            <DefaultHeadingBtn text="see all services" />
+          </DefaultHeading>
 
           <div className="row gx-4 gy-4 services-row">
             <div className="col-12 col-md-6 col-lg-4 mx-auto">
