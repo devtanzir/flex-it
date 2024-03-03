@@ -8,6 +8,8 @@ import PortfolioSection from "./PortfolioSection";
 import ClientSection from "./clientSection";
 import PricingSection from "./PricingSection";
 import Testimonials from "./Testimonials";
+import BlogSection from "./BlogSection";
+import FooterSection from "./FooterSection";
 
 const Home = () => {
   return (
@@ -21,6 +23,8 @@ const Home = () => {
       <ClientSection />
       <PricingSection />
       <Testimonials />
+      <BlogSection />
+      <FooterSection />
     </>
   );
 };
