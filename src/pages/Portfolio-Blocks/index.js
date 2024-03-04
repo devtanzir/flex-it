@@ -1,6 +1,6 @@
 import React from "react";
 
-const About = () => {
+const PortfolioBlocks = () => {
   return (
     <div
       style={{
@@ -9,12 +9,12 @@ const About = () => {
         alignItems: "center",
         height: "700px",
         width: "100%",
-        backgroundColor: "#a29bfe",
+        backgroundColor: "#6a89cc",
       }}
     >
-      <h1 style={{ fontSize: "40px" }}> This is About Page</h1>
+      <h1 style={{ fontSize: "40px" }}> This is Portfolio Blocks Page</h1>
     </div>
   );
 };
 
-export default About;
+export default PortfolioBlocks;

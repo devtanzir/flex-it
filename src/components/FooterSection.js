@@ -1,9 +1,9 @@
 import React from "react";
-import FooterLogoSide from "../../components/FooterLogoSide";
-import Logo from "../../assets/Image/logo/logo-colored.png";
-import FooterLinks from "../../components/FooterLinks";
-import FooterContactCard from "../../components/FooterContactCard";
-import ListedItem from "../../components/ListedItem";
+import FooterLogoSide from "./FooterLogoSide";
+import Logo from "../assets/Image/logo/logo-colored.png";
+import FooterLinks from "./FooterLinks";
+import FooterContactCard from "./FooterContactCard";
+import ListedItem from "./ListedItem";
 import { Link } from "react-router-dom";
 
 const FooterSection = () => {

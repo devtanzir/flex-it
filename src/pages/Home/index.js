@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 import HeroSection from "./HeroSection";
 import ServiceSection from "./ServiceSection";
 import AboutSection from "./AboutSection";
@@ -9,12 +9,12 @@ import ClientSection from "./clientSection";
 import PricingSection from "./PricingSection";
 import Testimonials from "./Testimonials";
 import BlogSection from "./BlogSection";
-import FooterSection from "./FooterSection";
+// import FooterSection from "./FooterSection";
 
 const Home = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <HeroSection />
       <ServiceSection />
       <AboutSection />
@@ -24,7 +24,7 @@ const Home = () => {
       <PricingSection />
       <Testimonials />
       <BlogSection />
-      <FooterSection />
+      {/* <FooterSection /> */}
     </>
   );
 };
