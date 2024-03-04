@@ -7,6 +7,12 @@ import ListedItem from "./ListedItem";
 import { Link } from "react-router-dom";
 
 const FooterSection = () => {
+  const footerData = {
+    useFullLinks: ["Google", "Dribble", "linkedIn", "wikipedia"],
+    resources: ["support", "dashboard", "drivers", "projects"],
+  };
+  // const useFullLinks = ["Google", "Dribble", "linkedIn", "wikipedia"];
+  // const resources = ["support", "dashboard", "drivers", "projects"];
   return (
     <>
       <footer className="page-footer dark-color-footer" id="page-footer">
@@ -22,10 +28,9 @@ const FooterSection = () => {
               <h2 className="footer-col-title">useful links</h2>
               <div className="footer-col-content-wrapper">
                 <ul className="footer-menu">
-                  <FooterLinks to="/" text="Google" />
-                  <FooterLinks to="/" text="Dribbble" />
-                  <FooterLinks to="/" text="linkedIn" />
-                  <FooterLinks to="/" text="wikipedia" />
+                  {footerData.useFullLinks.map((item) => (
+                    <FooterLinks to="/" text={item} />
+                  ))}
                 </ul>
               </div>
             </div>
@@ -33,10 +38,9 @@ const FooterSection = () => {
               <h2 className="footer-col-title">Resources</h2>
               <div className="footer-col-content-wrapper">
                 <ul className="footer-menu">
-                  <FooterLinks to="/" text="support" />
-                  <FooterLinks to="/" text="dashboard" />
-                  <FooterLinks to="/" text="drivers" />
-                  <FooterLinks to="/" text="projects" />
+                  {footerData.resources.map((item) => (
+                    <FooterLinks to="/" text={item} />
+                  ))}
                 </ul>
               </div>
             </div>
